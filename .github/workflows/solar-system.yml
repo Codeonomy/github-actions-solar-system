@@ -70,4 +70,4 @@ jobs:
           method: kubeconfig
           kubeconfig: ${{ secrets.KUBECONFIG }}
           context:
-      - run: kubectl version -oyaml
+      - run: kubectl version -o yaml
